@@ -2,7 +2,7 @@
 
 _windows-1257_ is a robust JavaScript implementation of [the windows-1257 character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#windows-1257).
 
-This encoding is known under the following names: cp1257, windows-1257, x-cp1257, and x-cp1257.
+This encoding is known under the following names: cp1257, windows-1257, and x-cp1257.
 
 ## Installation
 
