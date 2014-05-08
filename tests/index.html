@@ -8,28 +8,47 @@
 	<body>
 		<div id="qunit"></div>
 		<script src="../node_modules/qunitjs/qunit/qunit.js"></script>
-		<script src="../windows1257.js"></script>
+		<script src="../windows-1257.js"></script>
 		<script>
-			// populate `QUnit.urlParams`
 			QUnit.urlParams.norequire = /[?&]norequire=true(?:&|$)/.test(location.search);
 
-			// load tests.js if not using require.js
 			document.write(QUnit.urlParams.norequire
 				? '<script src="tests.js"><\/script>'
 				: '<script src="../node_modules/requirejs/require.js"><\/script>'
 			);
 		</script>
 		<script>
-			window.require && require({
-				'baseUrl': '../node_modules/requirejs/',
-				'urlArgs': 't=' + (+new Date),
-				'paths': {
-					'windows1257': '../../windows1257'
+			(function(root) {
+				if (!root.require) {
+					return;
 				}
-			},
-			['windows1257'], function(windows1257) {
-				require(['tests.js']);
-			});
+				QUnit.config.autostart = false;
+
+				requirejs.config({
+					'baseUrl': './',
+					'urlArgs': 't=' + (+new Date),
+					'waitSeconds': 0,
+					'packages': [
+						{
+							'name': 'windows-1257',
+							'location': '..',
+							'main': 'windows-1257'
+						},
+						{
+							'name': 'tests',
+							'location': '.',
+							'main': 'tests'
+						}
+					]
+				});
+
+				require(['windows-1257'], function(windows1257) {
+					root.windows1257 = windows1257;
+					require(['tests'], function() {
+						QUnit.start();
+					});
+				});
+			}(this));
 		</script>
 	</body>
 </html>
