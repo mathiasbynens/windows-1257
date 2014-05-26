@@ -1,4 +1,4 @@
-# windows-1257 [![Build status](https://travis-ci.org/mathiasbynens/windows-1257.svg?branch=master)](https://travis-ci.org/mathiasbynens/windows-1257) [![Dependency status](https://gemnasium.com/mathiasbynens/windows-1257.svg)](https://gemnasium.com/mathiasbynens/windows-1257)
+# windows-1257 [![Build status](https://travis-ci.org/mathiasbynens/windows-1257.svg?branch=master)](https://travis-ci.org/mathiasbynens/windows-1257) [![Code coverage status](http://img.shields.io/coveralls/mathiasbynens/windows-1257/master.svg)](https://coveralls.io/r/mathiasbynens/windows-1257) [![Dependency status](https://gemnasium.com/mathiasbynens/windows-1257.svg)](https://gemnasium.com/mathiasbynens/windows-1257)
 
 _windows-1257_ is a robust JavaScript implementation of [the windows-1257 character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#windows-1257).
 
