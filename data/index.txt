@@ -1,22 +1,19 @@
 # Any copyright is dedicated to the Public Domain.
-# https://creativecommons.org/publicdomain/zero/1.0/
+# http://creativecommons.org/publicdomain/zero/1.0/
 #
-# For details on index index-windows-1257.txt see the Encoding Standard
+# For details on index-windows-1257.txt see the Encoding Standard
 # https://encoding.spec.whatwg.org/
-#
-# Identifier: cc7256bdd10a5b8dc7fb6f994659f307dfcae60def9aa6c29d811f85e2842c47
-# Date: 2016-01-20
 
-  0	0x20AC	€ (EURO SIGN)
-  1	0x0081	 (<control>)
-  2	0x201A	‚ (SINGLE LOW-9 QUOTATION MARK)
-  3	0x0083	 (<control>)
-  4	0x201E	„ (DOUBLE LOW-9 QUOTATION MARK)
-  5	0x2026	… (HORIZONTAL ELLIPSIS)
-  6	0x2020	† (DAGGER)
-  7	0x2021	‡ (DOUBLE DAGGER)
-  8	0x0088	 (<control>)
-  9	0x2030	‰ (PER MILLE SIGN)
+	0	0x20AC	€ (EURO SIGN)
+	1	0x0081	 (<control>)
+	2	0x201A	‚ (SINGLE LOW-9 QUOTATION MARK)
+	3	0x0083	 (<control>)
+	4	0x201E	„ (DOUBLE LOW-9 QUOTATION MARK)
+	5	0x2026	… (HORIZONTAL ELLIPSIS)
+	6	0x2020	† (DAGGER)
+	7	0x2021	‡ (DOUBLE DAGGER)
+	8	0x0088	 (<control>)
+	9	0x2030	‰ (PER MILLE SIGN)
  10	0x008A	 (<control>)
  11	0x2039	‹ (SINGLE LEFT-POINTING ANGLE QUOTATION MARK)
  12	0x008C	 (<control>)
