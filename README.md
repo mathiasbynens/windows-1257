@@ -1,4 +1,4 @@
-# windows-1257 [![windows-1257 on npm](https://img.shields.io/npm/v/windows-1257)](https://www.npmjs.com/package/windows-1257)
+# windows-1257 [![Build status](https://github.com/mathiasbynens/windows-1257/workflows/run-checks/badge.svg)](https://github.com/mathiasbynens/windows-1257/actions?query=workflow%3Arun-checks) [![windows-1257 on npm](https://img.shields.io/npm/v/windows-1257)](https://www.npmjs.com/package/windows-1257)
 
 _windows-1257_ is a robust JavaScript implementation of [the windows-1257 character encoding as defined by the Encoding Standard](https://encoding.spec.whatwg.org/#windows-1257).
 
