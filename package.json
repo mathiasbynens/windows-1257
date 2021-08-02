@@ -1,6 +1,6 @@
 {
 	"name": "windows-1257",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"description": "A robust windows-1257 encoder/decoder written in JavaScript.",
 	"homepage": "https://mths.be/windows-1257",
 	"exports": "./windows-1257.mjs",
